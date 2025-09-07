@@ -3,7 +3,7 @@ import burgerImg from"/Hambúrguer_Lanche_Sanduiche_PNG_Transparente-removebg-pr
 const MenuPage = () => {
   return (
     <div>
-      <h2 className="px-4 pt-3 text-center text-2xl font-bold  text-[#e33434]">MenuPage</h2>
+      <h2 className="px-4 pt-3 text-center text-2xl font-bold  text-[#ff4f00]">MenuPage</h2>
       <nav className="p-3 flex flex-col justify-between gap-4">
         <MenuCard
           img={burgerImg}

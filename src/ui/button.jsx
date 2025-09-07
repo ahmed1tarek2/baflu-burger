@@ -1,7 +1,7 @@
-const Button = ({ children, onClick }) => {
+const Button = ({ children, onClick,className }) => {
   return (
     <button
-      className="bg-[#e33434] text-white py-2 px-4 rounded hover:bg-[#c53030]"
+      className={` py-2 px-4 rounded-3xl h-14 w-52 border-2 border-[#ff4f00] my-2 ${className}`}
       onClick={onClick}
     >
       {children}

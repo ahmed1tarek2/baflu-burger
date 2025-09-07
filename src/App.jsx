@@ -10,7 +10,7 @@ import HomePage from "./ui/homepage/home";
 const App = () => {
   return (
     <Router>
-      <MainNav icon={<User />} userName="ahmed tarek" />
+      <MainNav icon={<User className="text-white" />} userName="ahmed tarek" />
       <MobileNav />
       <Routes>
         <Route path="/" element={<HomePage />} />

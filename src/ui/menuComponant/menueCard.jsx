@@ -11,8 +11,8 @@ const MenuCard = (props) => {
         <h2 className="text-2xl font-bold mb-1">{title}</h2>
         <p className="text-gray-600 mb-2">{description}</p>
         <div className="flex justify-between items-center pt-2">
-          <p className="text-red-500 font-bold text-lg">{price} EGP</p>
-          <button className="bg-[#e33434] text-white py-2 px-4 rounded-lg">
+          <p className="text-[#ff4f00] font-bold text-lg">{price} EGP</p>
+          <button className="bg-[#ff4f00] text-white py-2 px-4 rounded-lg">
             Add to Cart
           </button>
         </div>
