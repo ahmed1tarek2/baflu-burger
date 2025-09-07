@@ -2,7 +2,7 @@ const MenuCard = (props) => {
   const { img, title, description, price } = props;
   return (
     <div>
-      <div className="border-2 border-gray-200 p-3 rounded-lg duration-300">
+      <div className="border-2 border-gray-200 p-3 rounded-lg hover:shadow-lg transition-shadow duration-300">
         <img
           src={img}
           alt="burger"

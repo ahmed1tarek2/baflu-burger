@@ -3,7 +3,7 @@ import { House, Utensils, Phone } from "lucide-react";
 
 const MobileNav = () => {
   return (
-    <nav className="flex justify-around bg-white text-zinc-900 p-3 text-xs font-medium fixed bottom-0 w-full z-50">
+    <nav className="flex justify-around bg-white text-zinc-900 p-3 text-xs font-medium fixed bottom-0 w-full z-50 lg:hidden">
       <NavLink
         to="/"
         className={({ isActive }) =>

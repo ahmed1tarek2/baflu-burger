@@ -1,4 +1,5 @@
 import {  User } from "lucide-react";
+import './CSS/index.css'
 import MainNav from "./ui/navBar/mainNav";
 import MobileNav from "./ui/navBar/mobileNav";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";

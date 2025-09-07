@@ -3,16 +3,16 @@ import MyMap from "./map";
 
 const ContactPage = () => {
   return (
-    <div className="container mx-auto px-1 py-4 bg-zinc-900">
-      <h2 className="text-2xl font-bold mb-4 text-center text-[#ff4f00]">
+    <div className="px-3 py-4 bg-zinc-900">
+      <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 text-center text-[#ff4f00]">
         Contact Us
       </h2>
       <MyMap />
       <div className="p-4 rounded-lg shadow-md">
-        <h3 className="text-2xl font-bold mb-4 mt-2 capitalize text-[#ff4f00] text-center">
+        <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 mt-2 capitalize text-[#ff4f00] text-center">
           our social media
         </h3>
-        <ul>
+        <ul className="md:flex md:justify-center md:gap-8">
           <li className="mb-3 flex items-center gap-2 text-lg font-medium">
             <Smartphone className="text-[#ff4f00]" />
             <a

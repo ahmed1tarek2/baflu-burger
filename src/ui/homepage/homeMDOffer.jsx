@@ -1,15 +1,14 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
-import offer1 from "/first1.png";
-import offer2 from "/first2.png";
-import offer3 from "/first3.png";
-import home from "/home.jpeg"
+import offer12 from "/offer12.png";
+import offer32 from "/offer32.png";
+import home2 from "/home2.jpeg"
 
 
-const Offers = () => {
+const OffersMD = () => {
   return (
-    <div className="md:hidden">
+    <div className="xS: md:block">
       <Swiper
         spaceBetween={50}
         slidesPerView={1}
@@ -21,19 +20,16 @@ const Offers = () => {
         modules={[Autoplay]}
       >
         <SwiperSlide>
-          <img src={offer1} alt="1" />
+          <img src={offer12} alt="1" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={offer2} alt="2" />
+          <img src={offer32} alt="3" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={offer3} alt="3" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={home} alt="Home" />
+          <img src={home2} alt="Home" />
         </SwiperSlide>
       </Swiper>
     </div>
   );
 };
-export default Offers;
+export default OffersMD;
