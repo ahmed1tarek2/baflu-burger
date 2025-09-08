@@ -8,7 +8,7 @@ import home2 from "/home2.jpeg"
 
 const OffersMD = () => {
   return (
-    <div className="xS: md:block">
+    <div className="max-sm:hidden md:block">
       <Swiper
         spaceBetween={50}
         slidesPerView={1}

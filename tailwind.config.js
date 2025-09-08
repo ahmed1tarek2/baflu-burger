@@ -1,14 +1,8 @@
-/** @type {import('tailwindcss').Config} */
+
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
   theme: {
-    extend: {
-      screens: {
-        xs: "320px", // breakpoint صغير جداً
-      },
+    screens: {
+      xs: "360px",
     },
   },
   plugins: [],

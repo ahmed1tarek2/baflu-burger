@@ -6,7 +6,7 @@ const MainNav = (props) => {
   return (
     <nav className="flex w-full h-16 bg-zinc-900 shadow-md items-center justify-between lg:justify-center  px-4">
       {icon}
-      <div className="lg:flex justify-around  p-3 text-xs font-medium w-full z-50 hidden md:hidden sm:hidden">
+      <div className="lg:flex justify-around  p-3 text-xs font-medium w-full z-50 md:hidden max-sm:hidden">
         <NavLink
           to="/"
           className={({ isActive }) =>
