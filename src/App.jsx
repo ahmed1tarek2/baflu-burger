@@ -9,6 +9,8 @@ import Footer from "./ui/footer";
 import ContactPage from "./ui/contactUs/contact";
 import HomePage from "./ui/homepage/home";
 import LoginPage from "./ui/login";
+import About from "./about";
+
 
 const App = () => {
   const [showLogin, setShowLogin] = useState(false);
@@ -34,6 +36,7 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/Menu" element={<MenuPage />} />
         <Route path="/Contact" element={<ContactPage />} />
+        <Route path="/About" element={<About />} />
       </Routes>
 
       {/* Footer */}

@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { House, Utensils, Phone } from "lucide-react";
+import { House, Utensils, Phone, CircleUser } from "lucide-react";
 
 const MobileNav = () => {
   return (
@@ -47,6 +47,20 @@ const MobileNav = () => {
       >
         <Phone />
         <span>Contact</span>
+      </NavLink>
+      <NavLink
+        to="/About"
+        className={({ isActive }) =>
+          `relative flex flex-col items-center px-4 
+     ${
+       isActive
+         ? "after:content-[''] after:absolute after:-top-3 after:w-full after:h-1 after:bg-zinc-900 text-zinc-900"
+         : "text-zinc-900"
+     }`
+        }
+      >
+        <CircleUser />
+        <span>About Us</span>
       </NavLink>
     </nav>
   );
