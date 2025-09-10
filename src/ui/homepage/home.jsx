@@ -2,6 +2,7 @@ import Button from "../button";
 import Offers from "./homeOffers";
 import OffersMD from "./homeMDOffer";
 import { Bike, ShoppingBag } from "lucide-react";
+import DownloadPage from "./download";
 
 
 const HomePage = () => {
@@ -19,6 +20,7 @@ const HomePage = () => {
           Order Delivery
         </Button>
       </div>
+      <DownloadPage />
     </div>
   );
 };
