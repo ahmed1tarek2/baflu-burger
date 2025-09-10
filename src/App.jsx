@@ -20,7 +20,7 @@ const App = () => {
         icon={
           <User
             className="text-white cursor-pointer"
-            onClick={() => setShowLogin(true)}
+            onClick={() => showLogin ? setShowLogin(false) : setShowLogin(true)}
           />
         }
         userName="ahmed tarek"
