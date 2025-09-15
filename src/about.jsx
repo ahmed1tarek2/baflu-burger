@@ -10,7 +10,7 @@ const About = () => {
       </p>
       <h1 className="text-2xl font-bold mb-4 capitalize text-[#ff4f00]">our history</h1>
       <p className="mb-6 text-lg leading-relaxed text-justify max-w-3xl mx-auto text-white">
-        From the very first day we opened our doors, our mission has been to
+        from the very first day we opened our doors, our mission has been to
         serve every burger with care, using only 100% fresh ingredients and
         authentic recipes. Step by step, we grew — and so did our family of
         customers who shared their best moments around our tables. Today, we are
