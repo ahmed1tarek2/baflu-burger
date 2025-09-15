@@ -4,7 +4,7 @@ const About = () => {
       <h1 className="text-3xl font-bold mb-4 capitalize text-[#ff4f00] ">our story</h1>
       <p className="mb-6 text-lg leading-relaxed text-justify max-w-3xl mx-auto text-white">
         It all started with a simple passion: the love for real burgers. Back in
-        [write the year], we wanted to break the routine and create something
+        1989, we wanted to break the routine and create something
         different for food lovers — not just another burger, but a full
         experience filled with flavor, quality, and the warm feeling of home.
       </p>
